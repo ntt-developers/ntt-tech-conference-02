@@ -11,5 +11,4 @@ please follow the guidelines to pull requests smoothly.
 
 ## Thank you
  * We really appreciate your time and work!
- * If you want to join our conference as contributor, please see [here](https://connpass.com/event/48115/)
 
