@@ -1,12 +1,12 @@
 {
-  "name": "ntt-tech-conference-01",
+  "name": "ntt-tech-conference-02",
   "version": "0.0.1",
   "author": "ntt-developers",
   "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ntt-developers/ntt-tech-conference-01.git"
+    "url": "https://github.com/ntt-developers/ntt-tech-conference-02.git"
   },
   "scripts": {
     "postinstall": "bower install",
