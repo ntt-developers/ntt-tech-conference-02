@@ -1,8 +1,4 @@
-## NTT Tech Conference #01
-
-[![Build Status](https://travis-ci.org/ntt-developers/ntt-tech-conference-01.svg?branch=master)](https://travis-ci.org/ntt-developers/ntt-tech-conference-01)
-
- - [Conference Site](https://ntt-developers.github.io/ntt-tech-conference-01/)
+## NTT Tech Conference #02
 
 #### Requirements
 
@@ -15,7 +11,7 @@
 
 #### Contributing
 
-    $ git clone git@github.com:ntt-developers/ntt-tech-conference-01.git
+    $ git clone git@github.com:ntt-developers/ntt-tech-conference-02.git
     $ gem install slim
     $ npm install
     $ npm run develop
