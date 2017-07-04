@@ -27,62 +27,9 @@ html lang="ja"
       .row.justify-content-md-center.mb-2
         .col.col-md-8
           p.description.text-center.mb-0.info
-            |【2017.2.6更新】
+            |【2017.7.4更新】
             br
-            |本イベントは終了しました。
-            |多数のご来場ありがとうございました。
-            br
-            |発表資料と写真を公開いたしました。
-      .text-center.my-5
-        h4.title 総監督ごあいさつ
-        span.subtitle Thank You Messages
-
-      .row.justify-content-md-center.mb-5
-        .col.col-md-8
-          p.description.text-justify.mb-0
-            | 講演いただいた皆様、ご参加いただいた皆様、そしてスタッフの皆様への御礼を申し上げます。
-            br
-            | また、今回、直前でインフルエンザ等で参加を断念した方がいらっしゃいましたが、
-            | その方々にも、無事開催できたことを感謝しております。
-            br
-            | 今回、NTTグループ横断で有志が集まってワイワイと手作りしましたので、
-            | もし不手際などございましたら、アンケート等で忌憚のないご意見、コメントをいただければ幸いです。
-            br
-            br
-            | 今回のイベントはソフトウェア開発者を中心に据えたイベントです。
-            br
-            | キーノートスピーチでNTTコミュニケーションズの技術開発部長 山下からも言及させていただきましたが、
-            | NTTグループ横断で技術者たちが集まるイベントは他にもありますが、現場のソフトウェア開発者、
-            | ソフトウェア技術に関わる人を対象とした、初めてのイベントです。
-            br
-            br
-            | 今、ソフトウェア、或いはSoftware Defined * と呼ばれるものが、ユーザだけでなく、
-            | 企業や社会の様相まで変えてしまう流れがきています。それほどにソフトウェアの重要性が高まっています。
-            br
-            br
-            | プラットフォーム事業者にも、エコシステムとスピードが求められている時代になり、
-            | 既に種々のソフトウェアのプラットフォームが整備され、エコシステムが構築され、
-            | 様々なプレイヤーが従来よりも比較にならない速度で多様なサービスを展開しています。
-            br
-            br
-            | 翻ってNTTグループでは、今でこそオープンソースのコミッター就任をニュースリリースしておりますが、冬の時代がありました。
-            | NWのIP系の人は昔からオープンに交流していましたが、ソフト系の人はNTTグループが背負ってきた様々な要因から、
-            | 業務としてなかなか認められない時代がありました。
-            | しかし今やオープンソースが会社の重要な戦略の中に位置づけられてきています。
-            br
-            br
-            | そして今後はグループ内外とのコラボが大事な時代になります。
-            br
-            | NTTグループとしても、このようなイベント含めた様々な活動を通して、
-            | より積極的にグループ内外とのコラボレーション、特にビジネスのコラボレーションを進めていくことが、
-            | 今後非常に重要になると考えています。
-            br
-            br
-            | ご参加いただいた皆様は時代の流れの中核を担っていくエンジニアとして、
-            | このような場を発表や議論による知識の共有や仲間・人脈作りに大いに活用していただき、
-            | ステップアップしていただければと思います。
-            | また、今後とも、ライト、オープン、スピードとコラボレーションを心がけて
-            | イベントを企画していきますので、ぜひご参加いただければと思います。
+            |イベントページを公開しました。
 
     .container
       .text-center.my-5
@@ -109,16 +56,16 @@ html lang="ja"
         li.nav-item
           a.nav-link#r302 data-toggle="tab" href="#room302" role="tab" 302会議室
         li.nav-item
-          a.nav-link#r401 data-toggle="tab" href="#room401" role="tab" 401ホール
+          a.nav-link#r302 data-toggle="tab" href="#room303" role="tab" 303会議室
         li.nav-item
-          a.nav-link#demo data-toggle="tab" href="#showcase" role="tab" 展示(401ホール)
+          a.nav-link#r401 data-toggle="tab" href="#room401" role="tab" 401ホール
 
       .tab-content.mb-5
         include timetable.slim
-        include conference.slim
-        include for-beginners.slim
-        include unconference.slim
+        include conference1.slim
         include showcase.slim
+        include conference2.slim
+        include unconference.slim
 
       .separator.mb-5
 
@@ -129,15 +76,7 @@ html lang="ja"
       .row.justify-content-md-center.mb-5
         .col.col-md-8
           p.description.text-justify.mb-0
-            | 本イベントは終了しました。
-            br
-            | 多数のご来場ありがとうございました。
-
-          p
-            | このイベントサイトは
-            a.mx-05 href="https://github.com/ntt-developers/ntt-tech-conference-01"
-              | GitHub上
-            | で作成しました。
+            | 本イベントの参加登録は現在準備中です。
 
       .separator.mb-5
 
@@ -157,6 +96,11 @@ html lang="ja"
         | Copyright
         i.fa.fa-copyright.mx-05
         | 2017 NTT Developers All Rights Reserved.
+        br
+        | このイベントサイトは
+        a.mx-05 href="https://github.com/ntt-developers/ntt-tech-conference-02"
+          | GitHub上
+        | で作成しました。
 
     script src="./assets/javascripts/bower_components.min.js" type="text/javascript"
     script src="./assets/javascripts/application.min.js" type="text/javascript"
